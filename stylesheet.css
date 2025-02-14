@@ -1365,11 +1365,4 @@ audio {
 	  font-size: 1.5em;
 	}
   }
-@media only screen and (max-width: 600px) {
-  .balloons {
-    width: 70px;          /* تقليل عرض البالون */
-    height: auto;         /* للسماح بتعديل الارتفاع تلقائيًا */
-    bottom: -100px;       /* تعديل المسافة من الأسفل حسب الحاجة */
-  }
-}
   
