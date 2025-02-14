@@ -43,7 +43,7 @@ $(document).ready(function(){
 		$('body').addClass('peach-after');
 		
 		// إنشاء العنصر الذي يحتوي على الجملة وعرضه في منتصف الصفحة
-		var sentenceDiv = $('<div id="play-sentence" style="position: fixed; top:50%; left:50%; transform: translate(-50%, -50%); font-size: 0.5em; color: #fff; z-index: 10000; text-align: center;">بمناسبة عيد الحب  <br> كل عيد حب وانتى الحب الاول و الاخير <br></div>');
+		var sentenceDiv = $('<div id="play-sentence" style="position: fixed; top:50%; left:50%; transform: translate(-50%, -50%); font-size: 0.4em; color: #fff; z-index: 10000; text-align: center;">بمناسبة عيد الحب  <br> كل عيد حب وانتى الحب الاول و الاخير <br></div>');
 		$('body').append(sentenceDiv);
 		
 		$(this).fadeOut('slow').delay(6000).promise().done(function(){
